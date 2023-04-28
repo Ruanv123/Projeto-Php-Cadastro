@@ -10,26 +10,28 @@
 </head>
 
 <body>
-  <h1 id="titulo">Cadastro de Motores</h1>
-  <form method="post" action="salvar_motor.php" id="form">
-    <label class="">
-      digite o modelo do motor:
-      <input type="text" name="modelo" placeholder="digite o modelo" />
-    </label>
-    <label class="">
-      digite o número de série do motor:
-      <input type="text" name="numero_serie" placeholder="digite o numero de serie" />
-    </label>
-    <label class="">
-      digite a potencia: 
+  <div class="cx">
+    <h1 id="titulo">Cadastro de Motores</h1>
+    <form method="post" action="salvar_motor.php" id="form">
+      <label class="lbl">
+        digite o modelo do motor:
+        <input type="text" name="modelo" placeholder="digite o modelo" />
+      </label>
+      <label class="lbl">
+        digite o número de série do motor:
+        <input type="text" name="numero_serie" placeholder="digite o numero de serie" />
+      </label>
+      <label class="lbl">
+        digite a potencia:
 
-      <input type="text" name="potencia" placeholder="digite a potencia" />
-    </label>
-    <button type="submit">enviar</button>
-  </form>
-  <p>
-    <a href="listar_motores.php">Listar motores</a>
-  </p>
+        <input type="text" name="potencia" placeholder="digite a potencia" />
+      </label>
+      <button id="btn" type="submit">enviar</button>
+    </form>
+    <p style="text-align: center; margin-top: 15px;">
+      <a href="listar_motores.php">Listar motores</a>
+    </p>
+  </div>
 </body>
 
 </html>
